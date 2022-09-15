@@ -7,7 +7,7 @@ let groups_of_2_count = 0
 let left_over_count = 0
 result = ''
 
-if (num_of_students % 3 == 0){
+if (num_of_students % 3 === 0){
     groups_of_3_count = num_of_students / 3
 }   else{
     left_over_count = num_of_students % 3
